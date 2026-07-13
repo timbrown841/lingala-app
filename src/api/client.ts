@@ -2,7 +2,7 @@ import axios from "axios";
 import { useAuth } from "../store/auth";
 
 // Your backend URL (replace with your FastAPI URL)
-const BASE_URL = "https://your-backend-url.com/api";
+const BASE_URL = "https://lingala-app.onrender.com/api";
 
 const client = axios.create({
   baseURL: BASE_URL,
